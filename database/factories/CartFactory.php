@@ -12,7 +12,7 @@ class CartFactory extends Factory
     public function definition()
     {
         return [
-            // Add any attributes you want for the Cart model
+
         ];
     }
 }

@@ -1,8 +1,7 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests\Unit;
 
-use App\Models\User;
 use Database\Factories\UserFactory;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
@@ -15,7 +14,7 @@ class ProfileControllerTest extends TestCase
     public function profile_page_loads_correctly()
     {
         $user = UserFactory::new()->create();
-        $response = $this->actingAs($user)->get('/profile');
+        $response = $this->actingAs($user)->get('/profile?');
 
         $response->assertStatus(200);
         $response->assertViewIs('profile');

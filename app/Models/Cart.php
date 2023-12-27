@@ -17,10 +17,10 @@ class Cart extends Model
     {
         return $this->belongsToMany(Product::class, 'cart_product')->withPivot('quantity');
     }
-    public function user()
-    {
-        return $this->belongsTo(User::class, 'cart_id', 'id');
-    }
+    //public function user()
+    //{
+      //  return $this->belongsTo(User::class, 'cart_id', 'id');
+    //}
 
 //    public function minusItem($productId)
 //    {

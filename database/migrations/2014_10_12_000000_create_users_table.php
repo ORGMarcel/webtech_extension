@@ -21,9 +21,11 @@ return new class extends Migration
 
             $table->unsignedBigInteger('cart_id')->unique();
             $table->foreign('cart_id')->references('id')->on('carts');
+
         });
 
     }
+
 
     /**
      * Reverse the migrations.

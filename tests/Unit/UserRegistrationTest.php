@@ -1,8 +1,7 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests\Unit;
 
-use Database\Factories\UserFactory;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
@@ -13,11 +12,12 @@ class UserRegistrationTest extends TestCase
     /** @test */
     public function a_user_can_register()
     {
-        $response = $this->post('/register', [
+        $response = $this->post('/userReg', [
             'name' => 'John Doe',
             'email' => 'john@example.com',
             'password' => 'password',
-            'password_confirmation' => 'password'
+            'rpassword' => 'password',
+            'phone' => '12345'
         ]);
 
         $response->assertRedirect('/');
