@@ -16,7 +16,8 @@ class NoUserLoggedIn extends DuskTestCase
     {
         $this->browse(function (Browser $browser) {
             $browser->visit('/')
-                    ->assertNotPresent('Cart');
+                    ->assertDontSee('Cart');
         });
     }
+
 }
