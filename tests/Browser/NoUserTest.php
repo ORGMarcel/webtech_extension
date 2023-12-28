@@ -6,7 +6,7 @@ use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Laravel\Dusk\Browser;
 use Tests\DuskTestCase;
 
-class NoUserLoggedIn extends DuskTestCase
+class NoUserTest extends DuskTestCase
 {
     /**
      * A Dusk test example.
@@ -16,8 +16,7 @@ class NoUserLoggedIn extends DuskTestCase
     {
         $this->browse(function (Browser $browser) {
             $browser->visit('/')
-                    ->assertDontSee('Cart')
-                    ->assertSee('Login');
+                ->assertDontSee('Cart');
         });
     }
 

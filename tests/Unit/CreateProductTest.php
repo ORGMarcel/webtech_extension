@@ -23,13 +23,10 @@ class CreateProductTest extends TestCase
             'product_info3' => 'Info 3',
             'product_info4' => 'Info 4',
             'image' => 'https://example.com/image.jpg',
-            // other fields...
         ];
 
-        // Use the ProductFactory to create a new Product with the specified attributes
         $product = ProductFactory::new()->create($productData);
 
-        // Assert that the product is stored in the database with the specified attributes
         $this->assertDatabaseHas('products', $productData);
     }
 }

@@ -3,24 +3,24 @@
         "level": "SEVERE",
         "message": "https:\/\/static.vecteezy.com\/system\/resources\/thumbnails\/010\/504\/213\/small\/of-halloween-sale-promotion-poster-or-banner-with-halloween-pumpkin-ghost-candlelight-buntings-and-halloween-elements-website-spooky-background-or-banner-halloween-template-vector.jpg - Failed to load resource: the server responded with a status of 403 ()",
         "source": "network",
-        "timestamp": 1703701771572
-    },
-    {
-        "level": "WARNING",
-        "message": "https:\/\/cdn.tailwindcss.com\/ 61:1708 \"cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https:\/\/tailwindcss.com\/docs\/installation\"",
-        "source": "console-api",
-        "timestamp": 1703701771706
+        "timestamp": 1703706378391
     },
     {
         "level": "SEVERE",
         "message": "https:\/\/s3-alpha-sig.figma.com\/img\/413f\/1a75\/95cc4dcd21037a3b46cf4a98c8d41f3d?Expires=1703462400&Signature=QdwEF797PItII3plkMVC-w9J4Jj-RsFn4AJuvF35kfWyPr-24hiQbeLxTYGGJhlNTNLNzH0be3uz-lw6Di53kAQbe~7fcoX95sqKCYmwfPh6RGYjq0a1QawtRPemT5rkU-~M~lj5RQjzjO5hY1WzBZ4zwrimdJEUlvCgLAeFHF9KHm5qae4g6kvCxtzlccfJbiTCNZB3FP66JEWcSf1JnAsve8cnnD~Gm5jB~b7ZnQTJRWvuuJf0K10jRtOEkkrP~fIlTLYK-ZAt1ClxD~y3vZP0FpngizT61y8cf7eVRXKIaaQd-~Q5wePZGi58RraX0AQvBXL4fRg36nAEez5BxA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4 - Failed to load resource: the server responded with a status of 403 ()",
         "source": "network",
-        "timestamp": 1703701771709
+        "timestamp": 1703706378503
+    },
+    {
+        "level": "WARNING",
+        "message": "https:\/\/cdn.tailwindcss.com\/ 61:1708 \"cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https:\/\/tailwindcss.com\/docs\/installation\"",
+        "source": "console-api",
+        "timestamp": 1703706378676
     },
     {
         "level": "SEVERE",
         "message": "https:\/\/www.elgiganten.dk\/image\/dv_web_D1800010021336299\/539209\/pcspecialist-fusion-x90s-i9k-133220004090-stationar-gaming-computer--pdp_zoom-3000--pdp_main-540.jpg - Failed to load resource: net::ERR_HTTP2_PROTOCOL_ERROR",
         "source": "network",
-        "timestamp": 1703701771834
+        "timestamp": 1703706378678
     }
 ]
